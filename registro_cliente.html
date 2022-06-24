@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form-ini">
+
+
+        <form action="registroCliente.php" method="POST">
+            <h3>Registro Cliente</h3>
+            <label>Razón Social</label><br>
+            <input type="text" name="razon" required><br>
+            <label>Email</label><br>
+            <input type="text" name="email" required><br>
+            <label>CIF</label><br>
+            <input type="text" name="cif" required><br>
+            <label>Dirección</label><br>
+            <input type="text" name="direccion" required><br>
+            <label>Código Postal</label><br>
+            <input type="text" name="codigo_postal" required><br>
+            <label>Población</label><br>
+            <input type="text"name="poblacion" required><br>
+            <label>Provincia</label><br>
+            <input type="text" name="provincia" required><br>
+            <label>Teléfono</label><br>
+            <input type="text" name="telefono" required><br>
+            <label>Contraseña</label><br>
+            <input type="password" name="contrasena" required><br>
+            <label>Repetir contraseña</label><br>
+            <input type="password" name="contrasena1" required><br><br>
+            <input class="btn-ini" type="submit" value="Crear usuario">
+            <input type="hidden" name="action" value="registroCliente">
+            <button class="btn-ini">
+            <a href="index.html">Ya soy cliente</a>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

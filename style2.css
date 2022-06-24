@@ -1,0 +1,226 @@
+body{
+    background-image: url("img/gradienta-interior.jpg");
+}
+
+h1{
+    font-family: 'Oxygen Mono', monospace;
+    color:black;
+    background-color: #7EBDC3;
+    border: solid 1px #DFF2D8;
+    padding:20px;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Oxygen Mono', monospace;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Oxygen Mono', monospace;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+h4{
+    font-family: 'Oxygen Mono', monospace;
+    color:White;
+}
+
+h5{
+    font-size:1.3em;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+img{
+    width: 20px;
+}
+
+
+table{ 
+    border-spacing: 1; 
+    border-collapse: collapse; 
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:800px; 
+    width:100%;
+    margin:0 auto;
+    position:relative;
+  }
+    
+  td,th{ 
+      padding-left:8px;
+      padding-right:8px;
+  }
+  
+  th  { 
+      height:60px;
+      background:#212529;
+      font-size:16px;
+      color:white;
+    }
+    
+  tr  {
+  height:48px; 
+  border-bottom:1px solid #E3F1D5;
+  } 
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
+  tr:hover {
+    background-color: coral;
+  }
+
+.contenedor{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn-emp {
+    /* background-color: #8a2b7f; */
+	background-color: rgb(0, 255, 187);
+    border: 2px black solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-emp-2 {
+    /* background-color: #8a2b7f; */
+	background-color: rgb(0, 255, 187);
+    border: 2px black solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+}
+
+
+.btn-dlt{
+	background-color: rgb(220, 20, 60);
+    border: 2px rgb(0, 0, 0) solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+}
+
+.añadir{
+    background-color: rgb(0, 255, 187);
+    border: 2px black solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.form-emp{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(255,255,255,0.9);
+    border: solid 1px;
+	padding: 30px;
+	font-family: 'Oxygen Mono', monospace;
+	text-align: center;
+	border:none;
+}
+
+.element-right{
+    float:right;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.element-top{
+    float:right;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.element-top-2{
+    float:right;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.success-msg{
+	background-color: rgb(22, 169, 22);
+    border: 2px rgb(0, 0, 0) solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fail-msg{
+	background-color: rgb(220, 20, 60);
+    border: 2px rgb(0, 0, 0) solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.empty-cart{
+	background-color: rgb(0, 0, 0);
+    border: 2px rgb(255, 255, 255) solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+	top:25%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn-list {
+    /* background-color: #8a2b7f; */
+  background-color: rgb(0, 255, 187);
+    border: 2px black solid;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  .btn-list-dlt{
+    /* background-color: #8a2b7f; */
+  background-color: rgb(220, 20, 60);
+    border: 2px black solid;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
